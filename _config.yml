@@ -20,17 +20,17 @@
 
 title: Saeed Amini "Junior Python Developer"
 email: sudn2014@gmail.com
-description: >- "If you think you are always worth more, It makes you restless, ambitious, keen to get on ✨
+description: |  # Literal block: Preserves exact formatting
+  If you think you are always worth more, It makes you restless, ambitious, keen to get on ✨
+  —Dr. Jordan B. Peterson
 
-—Dr. Jordan B. Peterson 
-
-• IT Support Engineer with almost 5 years of professional technical support 
-• IEEE student member since 2023 
-• Guided by ITIL best practices
-• Advanced Python Programming certified"
+  • IT Support Engineer with almost 5 years of professional technical support
+  • IEEE student member since 2023
+  • Guided by ITIL best practices
+  • Advanced Python Programming certified
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sudn2014.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sudn2014.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saeedamini20
 github_username: sudn2014
 

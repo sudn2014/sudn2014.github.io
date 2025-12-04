@@ -29,10 +29,10 @@ description: >- "If you think you are always worth more, It makes you restless, 
 • Guided by ITIL best practices
 • Advanced Python Programming certified"
 
-baseurl: "https://sudn2014.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sudn2014.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: None
-github_username:  sudn2014
+twitter_username: saeedamini20
+github_username: sudn2014
 
 # Build settings
 theme: minima

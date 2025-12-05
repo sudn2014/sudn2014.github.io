@@ -8,7 +8,7 @@ tags: [about, bio, jekyll]
 
 <img src="/assets/images/IMG_9130 copy.jpg" alt="Saeed Amini Profile Photo" style="display: block; margin: 20px auto; width: 150px; height: auto; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-<div class="post-content" style="text-align: justify; line-height: 1.6; font-family: 'Georgia', serif; max-width: 800px; margin: 0 auto; clear: both;">
+<div class="post-content" style="text-align: justify; line-height: 1.6; font-family: 'Georgia', serif; max-width: 800px; margin: 0 auto; clear: both; hyphens: auto; -webkit-hyphens: auto; -ms-hyphens: auto;">
   <p style="margin-bottom: 1.5em;">Welcome to my corner of the web! I'm Saeed Amini, a software developer and avid reader based in Tehran, Iran. This blog is where I share thoughts on tech, coding, books, and life hacks—all powered by Jekyll for that clean, static magic.</p>
 
   <p style="margin-bottom: 1.5em;">{{ site.description }}  <!-- Keeps your site's global description if you have one set in _config.yml --></p>
@@ -32,12 +32,8 @@ tags: [about, bio, jekyll]
 </div>
 
 <style>
-  /* Optional: Mobile tweak for justified text (it can look uneven on small screens) */
+  /* Photo scales down on mobile for better fit */
   @media (max-width: 768px) {
-    .post-content {
-      text-align: left !important;  /* Override justification on mobile */
-    }
-    /* Ensure photo scales on mobile */
     img[alt="Saeed Amini Profile Photo"] {
       width: 120px !important;
     }

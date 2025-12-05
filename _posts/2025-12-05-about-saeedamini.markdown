@@ -6,12 +6,10 @@ categories: personal intro
 tags: [about, bio, jekyll]
 ---
 
-# About Saeed Amini
-
-<img src="/assets/images/IMG_9130 copy.jpg" alt="Saeed Amini Profile Photo" style="float: left; margin: 0 20px 20px 0; width: 200px; height: auto; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="/assets/images/IMG_9130 copy.jpg" alt="Saeed Amini Profile Photo" style="display: block; margin: 20px auto; width: 150px; height: auto; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 <div class="post-content" style="text-align: justify; line-height: 1.6; font-family: 'Georgia', serif; max-width: 800px; margin: 0 auto; clear: both;">
-  <p style="text-indent: 1.5em; margin-bottom: 1.5em;">Welcome to my corner of the web! I'm Saeed Amini, a software developer and avid reader based in Tehran, Iran. This blog is where I share thoughts on tech, coding, books, and life hacks—all powered by Jekyll for that clean, static magic.</p>
+  <p style="margin-bottom: 1.5em;">Welcome to my corner of the web! I'm Saeed Amini, a software developer and avid reader based in Tehran, Iran. This blog is where I share thoughts on tech, coding, books, and life hacks—all powered by Jekyll for that clean, static magic.</p>
 
   <p style="margin-bottom: 1.5em;">{{ site.description }}  <!-- Keeps your site's global description if you have one set in _config.yml --></p>
 
@@ -28,7 +26,7 @@ tags: [about, bio, jekyll]
     <li><strong>Fun Fact</strong>: I once coded a bot to recommend coffee based on my mood—spoiler: it always said "espresso yourself!"</li>
   </ul>
 
-  <p style="text-indent: 1.5em; margin-bottom: 1.5em;">If you're into tech and creativity, stick around. Got questions? Hit the comments or <a href="https://x.com/saeedamini20" style="color: #1da1f2; text-decoration: none;">Twitter @saeedamini</a>.</p>
+  <p style="text-indent: 1.5em; margin-bottom: 1.5em;">If you're into tech and creativity, stick around. Got questions? Hit the comments or <a href="https://twitter.com/saeedamini" style="color: #1da1f2; text-decoration: none;">Twitter @saeedamini</a>.</p>
 
   <p style="text-align: center; font-style: italic; margin-top: 2em; padding: 1em; background: #f9f9f9; border-left: 4px solid #1da1f2;">Hello from the future (2025)—let's make this blog epic! 🚀</p>
 </div>
@@ -38,6 +36,10 @@ tags: [about, bio, jekyll]
   @media (max-width: 768px) {
     .post-content {
       text-align: left !important;  /* Override justification on mobile */
+    }
+    /* Ensure photo scales on mobile */
+    img[alt="Saeed Amini Profile Photo"] {
+      width: 120px !important;
     }
   }
 </style>

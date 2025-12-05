@@ -35,7 +35,8 @@ twitter_username: saeedamini20
 github_username: sudn2014
 
 # Build settings
-theme: minima
+theme: null
+# minima
 plugins:
   - jekyll-feed
 

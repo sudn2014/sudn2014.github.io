@@ -1,0 +1,4 @@
+body {
+    background-color: #0066cc !important;  /* Medium blue; change hex as needed, e.g., #0000ff for pure blue */
+    color: #ffffff !important;  /* Optional: White text for better contrast on blue background */
+  }

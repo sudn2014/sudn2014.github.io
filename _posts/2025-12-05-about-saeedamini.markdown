@@ -77,57 +77,36 @@ tags: [about, bio, jekyll, resume]
 <div class="contOut clearfix half">
   <div class="contIn">
     <div class="section middle clearfix">
-      <div class="skills code odd" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 1.5em; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-        <h3 style="margin-bottom: 0.5em; text-align: center; color: #333; font-size: 1.3em;">
-          Code & Software
-          <i class="fa fa-code" style="margin-left: 0.5em; color: #007acc;"></i>
+      <div class="skills overview" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 2em; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <h3 style="margin-bottom: 1em; text-align: center; color: #333; font-size: 1.5em;">
+          Professional Skills Proficiency
+          <i class="fa fa-chart-pie" style="margin-left: 0.5em; color: #007acc;"></i>
         </h3>
-        <ul style="columns: 2; column-gap: 1em; list-style: none; padding: 0; margin: 0;">
-          <li class="prim" style="background: #e3f2fd; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Python</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Django</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">REST API</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">MySQL</li>
-          <li class="prim" style="background: #e3f2fd; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Visual Studio</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">PowerShell</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Bash</li>
-          <li class="prim" style="background: #e3f2fd; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">WordPress</li>
-          <li class="light" style="background: #fff3e0; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Windows Server</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Azure AD</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Office 365</li>
-          <li class="prim" style="background: #e3f2fd; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">VMware</li>
-          <li style="background: #f3e5f5; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Trend Micro</li>
-          <li class="light" style="background: #fff3e0; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Cisco Tools</li>
-          <li class="prim" style="background: #e3f2fd; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Wireshark</li>
-          <li class="light" style="background: #fff3e0; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">DHCP/DNS</li>
-        </ul>
-      </div>
-      <div class="skills software" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 1.5em; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-top: 1em;">
-        <h3 style="margin-bottom: 0.5em; text-align: center; color: #333; font-size: 1.3em;">
-          Practices & Tools
-          <i class="fa fa-laptop" style="margin-left: 0.5em; color: #007acc;"></i>
-        </h3>
-        <ul style="columns: 2; column-gap: 1em; list-style: none; padding: 0; margin: 0;">
-          <li class="prim" style="background: #e8f5e8; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">IT Support</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">1st/2nd Line</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Troubleshooting</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Performance Optimization</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">ITIL Processes</li>
-          <li class="prim" style="background: #e8f5e8; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Networking</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">TCP/IP</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Routing Protocols</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">VLANs</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Firewalls</li>
-          <li class="prim" style="background: #e8f5e8; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Security</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Active Directory</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Group Policies</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Microsoft Exchange</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Antivirus Management</li>
-          <li class="prim" style="background: #e8f5e8; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Collaboration</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">MS Teams</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Webex</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Mentoring</li>
-          <li style="background: #fff8e1; padding: 0.3em; margin: 0.2em 0; border-radius: 4px; display: inline-block;">Project Management</li>
-        </ul>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <svg viewBox="0 0 200 200" width="300" height="300" style="cursor: pointer;">
+            <!-- Senior Slice (0° to 160°) - Green -->
+            <a xlink:href="https://www.linkedin.com/in/saeedamini/" target="_blank" style="cursor: pointer;">
+              <path d="M 100 100 L 200.0 100.0 A 100 100 0 0 1 6.03 134.2 Z" fill="#4CAF50" stroke="#fff" stroke-width="3">
+                <title>Senior (80% Proficiency):
+2nd Line Technical IT Support, Assistant Network Engineer, IEEE Student Member, Teamwork</title>
+              </path>
+            </a>
+            <!-- Mid-level Slice (160° to 280°) - Yellow -->
+            <a xlink:href="https://www.linkedin.com/in/saeedamini/" target="_blank" style="cursor: pointer;">
+              <path d="M 100 100 L 6.03 134.2 A 100 100 0 0 1 117.36 1.52 Z" fill="#FF9800" stroke="#fff" stroke-width="3">
+                <title>Mid-level (60% Proficiency):
+Python Programming, Django Framework, REST API, MySQL, PowerShell, Bash, Visual Studio, ITIL Processes</title>
+              </path>
+            </a>
+            <!-- Junior Slice (280° to 360°) - Pale Blue -->
+            <a xlink:href="https://www.linkedin.com/in/saeedamini/" target="_blank" style="cursor: pointer;">
+              <path d="M 100 100 L 117.36 1.52 A 100 100 0 0 1 200.0 100.0 Z" fill="#ADD8E6" stroke="#fff" stroke-width="3">
+                <title>Junior (40% Proficiency):
+HTML, CSS</title>
+              </path>
+            </a>
+          </svg>
+        </div>
       </div>
     </div>
     <div class="divider"></div>
@@ -204,7 +183,6 @@ tags: [about, bio, jekyll, resume]
 
 <p style="text-align: center; font-style: italic; margin-top: 2em; padding: 1em; background: #f9f9f9; border-left: 4px solid #1da1f2;">2025 goal: "Aiming to contribute to open-source Python tools for IT automation.</p>
 
-{{ site.description }}
 </div>
 
 <style>

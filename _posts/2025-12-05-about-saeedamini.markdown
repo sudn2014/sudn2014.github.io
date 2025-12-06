@@ -143,7 +143,7 @@ tags: [about, bio, jekyll, resume]
         <p class="desc">
           Gained full administrative control over all organizational IoT devices via command-line interface (CLI), a capability never achieved before in the company. This triumph caused 80 % reduction in IoT troubleshooting time, avoiding physical presence and improving response times by 80% and raising user satisfaction scores due to faster issue resolution. Enhanced security and operational efficiency by automating IoT management, reducing manual intervention.
         </p>
-        <span class="date">Previous Role, 2024</span>
+        <span class="date">Current Role, 2024</span>
       </div>
       <div class="contract">
         <h4>Mitigated USB Security Risks</h4>

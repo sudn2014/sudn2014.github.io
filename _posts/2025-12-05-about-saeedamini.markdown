@@ -12,7 +12,7 @@ tags: [about, bio, jekyll, resume]
   <div class="contIn">
     <div class="section top clearfix">
       <div class="logoCont">
-        <img class="logo" src="/assets/images/IMG_9130 copy.jpg" alt="Saeed Amini Profile Photo">
+        <img class="logo" src="/assets/images/IMG_9130 copy.jpg" alt="Saeed Amini Profile Photo" loading="lazy">
       </div>
       <h1>Saeed Amini</h1>
       <div class="moreInfo">
@@ -27,7 +27,7 @@ tags: [about, bio, jekyll, resume]
         Senior IT Support Engineer | Junior Python Developer
       </p>
     </div>
-    <div class="divider"></div>
+    <div class="divider" ></div>
   </div>
 </div>
 
@@ -139,13 +139,6 @@ tags: [about, bio, jekyll, resume]
     <div class="contracts clearfix">
       <h3>Key Achievements</h3>
       <div class="contract">
-        <h4>Network Infrastructure Migration</h4>
-        <p class="desc">
-          Spearheaded the migration to a Cisco-based network infrastructure, improving reliability and reducing maintenance costs by 50 %. Reduced network downtime by 25 % through proactive monitoring and timely issue resolution. improved network efficiency by over 50%. Trained and mentored a team of 2 junior engineers, improving team efficiency.
-        </p>
-        <span class="date">Previous Role, 2022</span>
-      </div>
-      <div class="contract">
         <h4>IoT Device Control & Automation</h4>
         <p class="desc">
           Gained full administrative control over all organizational IoT devices via command-line interface (CLI), a capability never achieved before in the company. This triumph caused 80 % reduction in IoT troubleshooting time, avoiding physical presence and improving response times by 80% and raising user satisfaction scores due to faster issue resolution. Enhanced security and operational efficiency by automating IoT management, reducing manual intervention.
@@ -153,18 +146,25 @@ tags: [about, bio, jekyll, resume]
         <span class="date">Previous Role, 2024</span>
       </div>
       <div class="contract">
-        <h4>Standardized IT Depot & Asset Management</h4>
-        <p class="desc">
-          Led the standardization of IT depot processes, improving inventory tracking and reducing equipment discrepancies, reducing equipment delays by 50 % and boosting satisfaction among field items with quicker hardware deployments. Implemented a structured asset management system, increasing accountability and reducing loss/theft risks.
-        </p>
-        <span class="date">Previous Role, 2022</span>
-      </div>
-      <div class="contract">
         <h4>Mitigated USB Security Risks</h4>
         <p class="desc">
           Proactively diagnosed and resolved vulnerabilities related to unauthorized USB device usage on employee PCs, preventing potential breaches. Strengthened endpoint security by enforcing policies and educating staff on best practices.
         </p>
         <span class="date">Previous Role, 2023</span>
+      </div>
+      <div class="contract">
+        <h4>Network Infrastructure Migration</h4>
+        <p class="desc">
+          Spearheaded the migration to a Cisco-based network infrastructure, improving reliability and reducing maintenance costs by 50 %. Reduced network downtime by 25 % through proactive monitoring and timely issue resolution. improved network efficiency by over 50%. Trained and mentored a team of 2 junior engineers, improving team efficiency.
+        </p>
+        <span class="date">Previous Role, 2022</span>
+      </div>
+      <div class="contract">
+        <h4>Standardized IT Depot & Asset Management</h4>
+        <p class="desc">
+          Led the standardization of IT depot processes, improving inventory tracking and reducing equipment discrepancies, reducing equipment delays by 50 % and boosting satisfaction among field items with quicker hardware deployments. Implemented a structured asset management system, increasing accountability and reducing loss/theft risks.
+        </p>
+        <span class="date">Previous Role, 2022</span>
       </div>
     </div>
   </div>
@@ -202,7 +202,7 @@ tags: [about, bio, jekyll, resume]
   </li>
 </ul>
 
-<p style="text-align: center; font-style: italic; margin-top: 2em; padding: 1em; background: #f9f9f9; border-left: 4px solid #1da1f2;">Hello from the future (2025)—let's make this blog epic! 🚀</p>
+<p style="text-align: center; font-style: italic; margin-top: 2em; padding: 1em; background: #f9f9f9; border-left: 4px solid #1da1f2;">2025 goal: "Aiming to contribute to open-source Python tools for IT automation.</p>
 
 {{ site.description }}
 </div>
@@ -230,7 +230,12 @@ tags: [about, bio, jekyll, resume]
   .sm { list-style: none; padding: 0; text-align: center; margin-top: 20px; }
   .sm li { display: inline-block; margin: 0 10px; }
   .sm a { color: #333; font-size: 1.5em; }
-  .divider { height: 1px; background: #ddd; margin: 20px 0; }
+  .divider { 
+  border: none; 
+  height: 2px; 
+  background: linear-gradient(to right, transparent, #ddd, transparent); 
+  margin: 20px 0; 
+  }
   .half .contOut { width: 50%; float: left; box-sizing: border-box; }
   .buttons a:hover { transform: translateY(-2px); }
   @media (max-width: 768px) {
